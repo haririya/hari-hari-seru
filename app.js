@@ -260,7 +260,7 @@ async function launch(g, character) {
   root.appendChild(screen);
 
   try {
-    const mod = await import("../" + g.entry);
+    const mod = await import("./" + g.entry);
     const start = mod.start || mod.default?.start;
     if (typeof start !== "function") {
       throw new Error("modul game tidak mengekspor start()");
