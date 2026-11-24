@@ -22,7 +22,8 @@ const TAG = WIN === "1600,900" ? "" : WIN.replace(",", "x");
 const OUT = join(ROOT, "_test", TAG);
 const CHROME = "C:/Program Files/Google/Chrome/Application/chrome.exe";
 const PORT = 9223;
-const URL_GAME = "http://127.0.0.1:8899/?seed=demo";
+// Bisa diarahkan ke situs live: GAME_URL=https://... node tools/cdp_test.mjs
+const URL_GAME = process.env.GAME_URL || "http://127.0.0.1:8899/?seed=demo";
 const PROFILE = join(OUT, "profile");
 
 mkdirSync(OUT, { recursive: true });
@@ -138,6 +139,18 @@ await send("Log.enable").catch(() => {});
 console.log("memuat game...");
 await sleep(1500);
 
+// Jaringan lebih lambat dari localhost (situs live): tunggu elemennya benar-
+// benar ada sebelum dinilai, maksimal 20 detik.
+async function tunggu(sel, ms = 20000) {
+  const t0 = Date.now();
+  while (Date.now() - t0 < ms) {
+    if (await evaluate(`!!document.querySelector(${JSON.stringify(sel)})`)) return true;
+    await sleep(400);
+  }
+  return false;
+}
+await tunggu(".tap-start");
+
 // ── tahap 1: layar tekan-untuk-mulai ─────────────────────────────
 await screenshot("tekan-mulai");
 cek("layar tekan-untuk-mulai muncul", await evaluate(`!!document.querySelector('.tap-start')`));
@@ -224,7 +237,17 @@ cek("ronde lari selesai lalu soal muncul", kartuSiap);
 await sleep(1200);
 await screenshot("soal-1");
 
-const info = await evaluate(`(() => {
+const info = await evaluate(`(async () => {
+  // Gambar .webp di situs live belum tentu selesai di-decode saat soal baru
+  // tampil. Tunggu sampai termuat (maks 8 detik) sebelum menilai, kalau tidak
+  // hasilnya tergantung kecepatan jaringan - bukan tergantung kode.
+  const tungguMuat = (img) => new Promise(r => {
+    if (img.complete) return r();
+    img.addEventListener('load', r, { once: true });
+    img.addEventListener('error', r, { once: true });
+    setTimeout(r, 8000);
+  }).then(() => img.decode?.().catch(() => {}));
+  await Promise.all([...document.querySelectorAll('.answers img')].map(tungguMuat));
   const banner = document.querySelector('.banner .teks');
   const opts = [...document.querySelectorAll('.answers .option-card')];
   const overflow = opts.map(card => {
