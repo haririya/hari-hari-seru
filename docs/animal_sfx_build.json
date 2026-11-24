@@ -1,0 +1,164 @@
+[
+  {
+    "hewan": "kucing",
+    "berkas": "kucing.mp3",
+    "sumber": "kucing-1.wav",
+    "mulai": 0.15,
+    "panjang": 1.0,
+    "diulang": 2,
+    "keterangan": "utama — CC0, diulang 2x"
+  },
+  {
+    "hewan": "anjing",
+    "berkas": "anjing.mp3",
+    "sumber": "anjing-1.ogg",
+    "mulai": 0.1,
+    "panjang": 2.0,
+    "diulang": 1,
+    "keterangan": "utama — gonggongan tunggal"
+  },
+  {
+    "hewan": "sapi",
+    "berkas": "sapi.mp3",
+    "sumber": "sapi-2.ogg",
+    "mulai": 0.6,
+    "panjang": 2.0,
+    "diulang": 1,
+    "keterangan": "utama — moo panjang"
+  },
+  {
+    "hewan": "ayam",
+    "berkas": "ayam.mp3",
+    "sumber": "ayam-3.ogg",
+    "mulai": 2.9,
+    "panjang": 2.0,
+    "diulang": 1,
+    "keterangan": "utama — kokok, paling padat"
+  },
+  {
+    "hewan": "singa",
+    "berkas": "singa.mp3",
+    "sumber": "singa-1.wav",
+    "mulai": 16.5,
+    "panjang": 2.2,
+    "diulang": 1,
+    "keterangan": "utama — auman asli"
+  },
+  {
+    "hewan": "katak",
+    "berkas": "katak.mp3",
+    "sumber": "katak-1.oga",
+    "mulai": 0.0,
+    "panjang": 2.0,
+    "diulang": 1,
+    "keterangan": "utama — croak tunggal"
+  },
+  {
+    "hewan": "gajah",
+    "berkas": "gajah.mp3",
+    "sumber": "gajah-1.ogg",
+    "mulai": 0.0,
+    "panjang": 1.4,
+    "diulang": 2,
+    "keterangan": "utama — CC0, diulang 2x"
+  },
+  {
+    "hewan": "bebek",
+    "berkas": "bebek.mp3",
+    "sumber": "bebek-1.ogg",
+    "mulai": 1.1,
+    "panjang": 2.0,
+    "diulang": 1,
+    "keterangan": "utama — mallard"
+  },
+  {
+    "hewan": "kucing",
+    "berkas": "kucing-2.mp3",
+    "sumber": "kucing-3.ogg",
+    "mulai": 0.1,
+    "panjang": 1.05,
+    "diulang": 2,
+    "keterangan": "alt — 44.1k stereo"
+  },
+  {
+    "hewan": "kucing",
+    "berkas": "kucing-3.mp3",
+    "sumber": "kucing-2.oga",
+    "mulai": 9.4,
+    "panjang": 2.0,
+    "diulang": 1,
+    "keterangan": "alt — 8 kHz, kualitas rendah"
+  },
+  {
+    "hewan": "anjing",
+    "berkas": "anjing-2.mp3",
+    "sumber": "anjing-2.ogg",
+    "mulai": 1.5,
+    "panjang": 2.0,
+    "diulang": 1,
+    "keterangan": "alt — gonggongan berulang"
+  },
+  {
+    "hewan": "anjing",
+    "berkas": "anjing-3.mp3",
+    "sumber": "anjing-3.ogg",
+    "mulai": 2.2,
+    "panjang": 2.0,
+    "diulang": 1,
+    "keterangan": "alt — stereo"
+  },
+  {
+    "hewan": "sapi",
+    "berkas": "sapi-2.mp3",
+    "sumber": "sapi-1.ogg",
+    "mulai": 0.2,
+    "panjang": 1.0,
+    "diulang": 2,
+    "keterangan": "alt — CC0 pendek"
+  },
+  {
+    "hewan": "sapi",
+    "berkas": "sapi-3.mp3",
+    "sumber": "sapi-3.ogg",
+    "mulai": 0.1,
+    "panjang": 2.0,
+    "diulang": 1,
+    "keterangan": "alt — moo tunggal"
+  },
+  {
+    "hewan": "ayam",
+    "berkas": "ayam-2.mp3",
+    "sumber": "ayam-1.ogg",
+    "mulai": 3.8,
+    "panjang": 2.0,
+    "diulang": 1,
+    "keterangan": "alt — ayam minta makan"
+  },
+  {
+    "hewan": "ayam",
+    "berkas": "ayam-3.mp3",
+    "sumber": "ayam-2.ogg",
+    "mulai": 8.1,
+    "panjang": 2.0,
+    "diulang": 1,
+    "keterangan": "alt — keluar kandang"
+  },
+  {
+    "hewan": "singa",
+    "berkas": "singa-2.mp3",
+    "sumber": "singa-2.ogg",
+    "mulai": 0.3,
+    "panjang": 2.2,
+    "diulang": 1,
+    "keterangan": "alt — public domain"
+  },
+  {
+    "hewan": "katak",
+    "berkas": "katak-2.mp3",
+    "sumber": "katak-2.ogg",
+    "mulai": 24.9,
+    "panjang": 2.0,
+    "diulang": 1,
+    "keterangan": "alt — chorus malam"
+  }
+]

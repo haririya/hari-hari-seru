@@ -1,0 +1,126 @@
+// String antarmuka dua bahasa. Semua teks yang dilihat user ada di sini.
+// Menambah bahasa = tambah satu blok, tidak menyentuh kode lain.
+
+export const STRINGS = {
+  id: {
+    judul_portal: "Hari-Hari Seru",
+    subjudul_portal: "Pilih permainanmu!",
+    bintang_kamu: "Bintangmu",
+    pilih_game: "Pilih Game",
+    pilih_bahasa: "Bahasa",
+    pengaturan: "Pengaturan",
+    tahan_untuk_buka: "Tahan 3 detik untuk membuka",
+    hapus_progres: "Hapus Semua Bintang",
+    hapus_konfirmasi: "Yakin mau hapus semua bintang?",
+    ya_hapus: "Ya, Hapus",
+    batal: "Batal",
+    suara: "Suara",
+    musik: "Musik",
+    efek: "Efek Suara",
+    volume: "Volume",
+    uji_suara: "Coba Suara",
+    tutup: "Tutup",
+    kembali: "Kembali",
+    pilih_karakter: "Pilih teman unicorn kamu!",
+    pilih_mode: "Mau main apa hari ini?",
+    mode_campur: "Campur Semua",
+    mulai: "Mulai Main",
+    main_lagi: "Main Lagi",
+    pilih_game_lain: "Pilih Game Lain",
+    benar: "Hebat!",
+    salah: "Coba lagi yuk!",
+    ulangi: "Ulangi Suara",
+    dengar_suara: "Dengar Suaranya",
+    selesai: "Kamu sampai di Kastil Pelangi!",
+    dapat_bintang: "Kamu dapat 1 bintang!",
+    total_bintang: "Total bintangmu",
+    soal_ke: "Soal",
+    dari: "dari",
+    tekan_mulai: "Tekan untuk Mulai",
+    tekan_mulai_sub: "Supaya suara bisa berbunyi",
+    kategori_warna: "Warna",
+    kategori_bentuk: "Bentuk",
+    kategori_huruf: "Huruf",
+    kategori_angka: "Angka",
+    kategori_hewan: "Suara Hewan",
+    sedang_dimuat: "Sedang menyiapkan...",
+    soal_kosong: "Soal tidak tersedia",
+    // mini-game lompat rintangan (alur Chrome Dino)
+    lompat_ayo: "Tap layarnya untuk lompat!",
+    lompat_hebat: "Hebat lompatnya!",
+    ronde: "Ronde",
+    lari_dimulai: "Ayo lompat rintangannya!",
+    // checkpoint: menabrak bukan gagal, cuma berhenti sebentar di titik itu
+    checkpoint_label: "CHECKPOINT",
+    checkpoint_judul: "Tidak apa-apa!",
+    checkpoint_lanjut: "Lanjut dari sini",
+    checkpoint_suara: "Aduh kena! Tap untuk lanjut.",
+  },
+  en: {
+    judul_portal: "Happy Days",
+    subjudul_portal: "Pick your game!",
+    bintang_kamu: "Your Stars",
+    pilih_game: "Choose a Game",
+    pilih_bahasa: "Language",
+    pengaturan: "Settings",
+    tahan_untuk_buka: "Hold 3 seconds to open",
+    hapus_progres: "Erase All Stars",
+    hapus_konfirmasi: "Erase all your stars?",
+    ya_hapus: "Yes, Erase",
+    batal: "Cancel",
+    suara: "Voice",
+    musik: "Music",
+    efek: "Sound Effects",
+    volume: "Volume",
+    uji_suara: "Test Sound",
+    tutup: "Close",
+    kembali: "Back",
+    pilih_karakter: "Pick your unicorn friend!",
+    pilih_mode: "What shall we play today?",
+    mode_campur: "Mix Everything",
+    mulai: "Start",
+    main_lagi: "Play Again",
+    pilih_game_lain: "Other Games",
+    benar: "Great job!",
+    salah: "Let's try again!",
+    ulangi: "Repeat Voice",
+    dengar_suara: "Hear the Sound",
+    selesai: "You reached the Rainbow Castle!",
+    dapat_bintang: "You earned 1 star!",
+    total_bintang: "Your total stars",
+    soal_ke: "Question",
+    dari: "of",
+    tekan_mulai: "Tap to Start",
+    tekan_mulai_sub: "So the sound can play",
+    kategori_warna: "Colors",
+    kategori_bentuk: "Shapes",
+    kategori_huruf: "Letters",
+    kategori_angka: "Numbers",
+    kategori_hewan: "Animal Sounds",
+    sedang_dimuat: "Getting ready...",
+    soal_kosong: "No questions available",
+    // obstacle-jump mini game (Chrome Dino flow)
+    lompat_ayo: "Tap the screen to jump!",
+    lompat_hebat: "Great jumping!",
+    ronde: "Round",
+    lari_dimulai: "Let's jump the obstacles!",
+    checkpoint_label: "CHECKPOINT",
+    checkpoint_judul: "That's okay!",
+    checkpoint_lanjut: "Continue from here",
+    checkpoint_suara: "Oops! Tap to continue.",
+  },
+};
+
+export const LOCALES = ["id", "en"];
+
+/** Ambil string antarmuka. Kalau kunci tidak ada, kembalikan kuncinya (biar kelihatan saat salah). */
+export function t(locale, key) {
+  const pack = STRINGS[locale] || STRINGS.id;
+  return pack[key] ?? STRINGS.id[key] ?? key;
+}
+
+/** Label dua bahasa dari objek item. */
+export function label(item, locale) {
+  if (typeof item.label === "string") return item.label;
+  return item.label?.[locale] ?? item.label?.id ?? "";
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "hewan": "kucing",
+    "berkas_game": "assets/audio/sfx/kucing.mp3",
+    "berkas_sumber": "kucing-1.wav",
+    "judul_commons": "Meow of a Siamese cat - freemaster2.wav",
+    "pencipta": "freemaster2",
+    "lisensi": "CC0",
+    "lisensi_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AMeow_of_a_Siamese_cat_-_freemaster2.wav",
+    "wajib_atribusi": "false"
+  },
+  {
+    "hewan": "anjing",
+    "berkas_game": "assets/audio/sfx/anjing.mp3",
+    "berkas_sumber": "anjing-1.ogg",
+    "judul_commons": "Barking of a dog.ogg",
+    "pencipta": "Amada44",
+    "lisensi": "CC BY-SA 3.0",
+    "lisensi_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ABarking_of_a_dog.ogg",
+    "wajib_atribusi": "true"
+  },
+  {
+    "hewan": "sapi",
+    "berkas_game": "assets/audio/sfx/sapi.mp3",
+    "berkas_sumber": "sapi-2.ogg",
+    "judul_commons": "Single Cow Moo.ogg",
+    "pencipta": "MichaeltheFox8621",
+    "lisensi": "CC BY-SA 4.0",
+    "lisensi_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASingle_Cow_Moo.ogg",
+    "wajib_atribusi": "true"
+  },
+  {
+    "hewan": "ayam",
+    "berkas_game": "assets/audio/sfx/ayam.mp3",
+    "berkas_sumber": "ayam-3.ogg",
+    "judul_commons": "Medium rooster crowing.ogg",
+    "pencipta": "alys",
+    "lisensi": "Public domain",
+    "lisensi_url": "",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AMedium_rooster_crowing.ogg",
+    "wajib_atribusi": "false"
+  },
+  {
+    "hewan": "singa",
+    "berkas_game": "assets/audio/sfx/singa.mp3",
+    "berkas_sumber": "singa-1.wav",
+    "judul_commons": "Lionroar.wav",
+    "pencipta": "Jonathan Growcott, Alex Lobora, Andrew Markham, Charlotte E. Searle, Johan Wahlström, Matthew Wijers, Benno I. Simmons",
+    "lisensi": "CC BY 4.0",
+    "lisensi_url": "https://creativecommons.org/licenses/by/4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ALionroar.wav",
+    "wajib_atribusi": "true"
+  },
+  {
+    "hewan": "katak",
+    "berkas_game": "assets/audio/sfx/katak.mp3",
+    "berkas_sumber": "katak-1.oga",
+    "judul_commons": "Single Frog Croak.oga",
+    "pencipta": "MichaeltheFox8621",
+    "lisensi": "CC BY-SA 4.0",
+    "lisensi_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3ASingle_Frog_Croak.oga",
+    "wajib_atribusi": "true"
+  },
+  {
+    "hewan": "gajah",
+    "berkas_game": "assets/audio/sfx/gajah.mp3",
+    "berkas_sumber": "gajah-1.ogg",
+    "judul_commons": "Elephant voice - trumpeting.ogg",
+    "pencipta": "தகவலுழவன்",
+    "lisensi": "CC0",
+    "lisensi_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AElephant_voice_-_trumpeting.ogg",
+    "wajib_atribusi": "false"
+  },
+  {
+    "hewan": "bebek",
+    "berkas_game": "assets/audio/sfx/bebek.mp3",
+    "berkas_sumber": "bebek-1.ogg",
+    "judul_commons": "Anas platyrhynchos - Mallard - XC62258.ogg",
+    "pencipta": "Jonathon Jongsma",
+    "lisensi": "CC BY-SA 3.0",
+    "lisensi_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "halaman": "https://commons.wikimedia.org/wiki/File%3AAnas_platyrhynchos_-_Mallard_-_XC62258.ogg",
+    "wajib_atribusi": "true"
+  }
+]

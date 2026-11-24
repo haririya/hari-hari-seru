@@ -1,0 +1,182 @@
+[
+  {
+    "file": "anjing-1.ogg",
+    "durasi": 2.6,
+    "puncak_rms": 13503,
+    "mulai_bersuara": 0.2,
+    "akhir_bersuara": 2.0,
+    "potong_dari": 0.1,
+    "energi_potongan": 49002,
+    "kepadatan": 25.6
+  },
+  {
+    "file": "anjing-2.ogg",
+    "durasi": 4.0,
+    "puncak_rms": 15129,
+    "mulai_bersuara": 0.0,
+    "akhir_bersuara": 3.6,
+    "potong_dari": 1.5,
+    "energi_potongan": 70634,
+    "kepadatan": 22.5
+  },
+  {
+    "file": "anjing-3.ogg",
+    "durasi": 5.4,
+    "puncak_rms": 9792,
+    "mulai_bersuara": 0.0,
+    "akhir_bersuara": 4.1,
+    "potong_dari": 2.2,
+    "energi_potongan": 25091,
+    "kepadatan": 26.6
+  },
+  {
+    "file": "ayam-1.ogg",
+    "durasi": 9.2,
+    "puncak_rms": 13465,
+    "mulai_bersuara": 0.0,
+    "akhir_bersuara": 8.9,
+    "potong_dari": 3.8,
+    "energi_potongan": 152448,
+    "kepadatan": 36.6
+  },
+  {
+    "file": "ayam-2.ogg",
+    "durasi": 11.2,
+    "puncak_rms": 5862,
+    "mulai_bersuara": 0.0,
+    "akhir_bersuara": 10.8,
+    "potong_dari": 8.1,
+    "energi_potongan": 53400,
+    "kepadatan": 30.6
+  },
+  {
+    "file": "ayam-3.ogg",
+    "durasi": 8.3,
+    "puncak_rms": 16886,
+    "mulai_bersuara": 0.1,
+    "akhir_bersuara": 6.5,
+    "potong_dari": 2.9,
+    "energi_potongan": 286414,
+    "kepadatan": 53.6
+  },
+  {
+    "file": "bebek-1.ogg",
+    "durasi": 3.4,
+    "puncak_rms": 7371,
+    "mulai_bersuara": 1.1,
+    "akhir_bersuara": 2.6,
+    "potong_dari": 1.1,
+    "energi_potongan": 45600,
+    "kepadatan": 32.9
+  },
+  {
+    "file": "gajah-1.ogg",
+    "durasi": 1.4,
+    "puncak_rms": 2791,
+    "mulai_bersuara": 0.1,
+    "akhir_bersuara": 1.1,
+    "potong_dari": 0.0,
+    "energi_potongan": -1,
+    "kepadatan": -0.0
+  },
+  {
+    "file": "katak-1.oga",
+    "durasi": 4.3,
+    "puncak_rms": 9936,
+    "mulai_bersuara": 0.1,
+    "akhir_bersuara": 4.2,
+    "potong_dari": 0.0,
+    "energi_potongan": 35170,
+    "kepadatan": 22.9
+  },
+  {
+    "file": "katak-2.ogg",
+    "durasi": 59.7,
+    "puncak_rms": 939,
+    "mulai_bersuara": 0.0,
+    "akhir_bersuara": 59.5,
+    "potong_dari": 24.9,
+    "energi_potongan": 9682,
+    "kepadatan": 28.6
+  },
+  {
+    "file": "kucing-1.wav",
+    "durasi": 1.5,
+    "puncak_rms": 11031,
+    "mulai_bersuara": 0.2,
+    "akhir_bersuara": 1.1,
+    "potong_dari": 0.0,
+    "energi_potongan": -1,
+    "kepadatan": -0.0
+  },
+  {
+    "file": "kucing-2.oga",
+    "durasi": 11.8,
+    "puncak_rms": 9207,
+    "mulai_bersuara": 0.3,
+    "akhir_bersuara": 11.2,
+    "potong_dari": 9.4,
+    "energi_potongan": 72614,
+    "kepadatan": 49.2
+  },
+  {
+    "file": "kucing-3.ogg",
+    "durasi": 1.1,
+    "puncak_rms": 14100,
+    "mulai_bersuara": 0.1,
+    "akhir_bersuara": 0.9,
+    "potong_dari": 0.0,
+    "energi_potongan": -1,
+    "kepadatan": -0.0
+  },
+  {
+    "file": "sapi-1.ogg",
+    "durasi": 1.2,
+    "puncak_rms": 8455,
+    "mulai_bersuara": 0.2,
+    "akhir_bersuara": 0.9,
+    "potong_dari": 0.0,
+    "energi_potongan": -1,
+    "kepadatan": -0.0
+  },
+  {
+    "file": "sapi-2.ogg",
+    "durasi": 3.7,
+    "puncak_rms": 9454,
+    "mulai_bersuara": 1.0,
+    "akhir_bersuara": 2.6,
+    "potong_dari": 0.6,
+    "energi_potongan": 89450,
+    "kepadatan": 36.1
+  },
+  {
+    "file": "sapi-3.ogg",
+    "durasi": 2.1,
+    "puncak_rms": 9121,
+    "mulai_bersuara": 0.0,
+    "akhir_bersuara": 2.1,
+    "potong_dari": 0.1,
+    "energi_potongan": 105189,
+    "kepadatan": 20.3
+  },
+  {
+    "file": "singa-1.wav",
+    "durasi": 42.6,
+    "puncak_rms": 3830,
+    "mulai_bersuara": 0.3,
+    "akhir_bersuara": 42.6,
+    "potong_dari": 16.5,
+    "energi_potongan": 31989,
+    "kepadatan": 36.7
+  },
+  {
+    "file": "singa-2.ogg",
+    "durasi": 9.0,
+    "puncak_rms": 9006,
+    "mulai_bersuara": 0.4,
+    "akhir_bersuara": 8.7,
+    "potong_dari": 0.3,
+    "energi_potongan": 118908,
+    "kepadatan": 36.7
+  }
+]

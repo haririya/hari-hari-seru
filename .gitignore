@@ -1,0 +1,14 @@
+# --- artefak uji & screenshot (498 MB, tidak dipakai situs) ---
+_test/
+tools/__pycache__/
+__pycache__/
+
+# --- sumber mentah aset: tidak dirujuk kode mana pun, hanya bahan baku ---
+# (assets/images + assets/audio yang sudah dikompresi tetap ikut)
+assets/_raw/
+assets/_raw_audio/
+
+# --- OS / editor ---
+Thumbs.db
+desktop.ini
+.DS_Store

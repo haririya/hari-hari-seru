@@ -1,0 +1,210 @@
+{
+  "intro_pilih": {
+    "id": "Halo teman! Ayo pilih teman unicorn kamu!",
+    "en": "Hello friend! Let's pick your unicorn friend!"
+  },
+  "pilih_mode": {
+    "id": "Mau main apa hari ini?",
+    "en": "What shall we play today?"
+  },
+  "mulai_main": {
+    "id": "Ayo kita mulai!",
+    "en": "Let's start!"
+  },
+  "tekan_mulai": {
+    "id": "Tekan tombol hijau untuk mulai.",
+    "en": "Tap the green button to start."
+  },
+  "ulangi": {
+    "id": "Dengar lagi.",
+    "en": "Listen again."
+  },
+  "menang_kastil": {
+    "id": "Hore! Kamu sampai di Kastil Pelangi!",
+    "en": "Hooray! You reached the Rainbow Castle!"
+  },
+  "dapat_bintang": {
+    "id": "Kamu dapat satu bintang!",
+    "en": "You earned one star!"
+  },
+  "selesai": {
+    "id": "Semua soal sudah selesai. Kamu hebat!",
+    "en": "All done. You did great!"
+  },
+  "benar_1": {
+    "id": "Hebat!",
+    "en": "Great job!"
+  },
+  "benar_2": {
+    "id": "Wah, pintar sekali!",
+    "en": "Wow, so clever!"
+  },
+  "benar_3": {
+    "id": "Betul sekali!",
+    "en": "That's right!"
+  },
+  "salah_coba": {
+    "id": "Belum tepat. Coba lagi yuk!",
+    "en": "Not quite. Let's try again!"
+  },
+  "tanya_hitung": {
+    "id": "Ada berapa banyak?",
+    "en": "How many are there?"
+  },
+  "tanya_kelompok": {
+    "id": "Masuk ke kelompok mana?",
+    "en": "Which group does it belong to?"
+  },
+  "tanya_suara": {
+    "id": "Suara hewan apa ini?",
+    "en": "Whose sound is this?"
+  },
+  "lompat_ayo": {
+    "id": "Tap layarnya untuk lompat!",
+    "en": "Tap the screen to jump!"
+  },
+  "lompat_hebat": {
+    "id": "Hebat lompatnya!",
+    "en": "Great jumping!"
+  },
+  "checkpoint_suara": {
+    "id": "Aduh kena! Tap untuk lanjut.",
+    "en": "Oops! Tap to continue."
+  },
+  "tanya_warna_merah": {
+    "id": "Mana yang warnanya merah?",
+    "en": "Which one is red?"
+  },
+  "tanya_warna_biru": {
+    "id": "Mana yang warnanya biru?",
+    "en": "Which one is blue?"
+  },
+  "tanya_warna_hijau": {
+    "id": "Mana yang warnanya hijau?",
+    "en": "Which one is green?"
+  },
+  "tanya_warna_kuning": {
+    "id": "Mana yang warnanya kuning?",
+    "en": "Which one is yellow?"
+  },
+  "tanya_warna_ungu": {
+    "id": "Mana yang warnanya ungu?",
+    "en": "Which one is purple?"
+  },
+  "tanya_warna_oranye": {
+    "id": "Mana yang warnanya oranye?",
+    "en": "Which one is orange?"
+  },
+  "tanya_bentuk_lingkaran": {
+    "id": "Mana yang bentuknya lingkaran?",
+    "en": "Which one is a circle?"
+  },
+  "tanya_bentuk_segitiga": {
+    "id": "Mana yang bentuknya segitiga?",
+    "en": "Which one is a triangle?"
+  },
+  "tanya_bentuk_kotak": {
+    "id": "Mana yang bentuknya kotak?",
+    "en": "Which one is a square?"
+  },
+  "tanya_bentuk_bintang": {
+    "id": "Mana yang bentuknya bintang?",
+    "en": "Which one is a star?"
+  },
+  "tanya_bentuk_hati": {
+    "id": "Mana yang bentuknya hati?",
+    "en": "Which one is a heart?"
+  },
+  "tanya_huruf_a": {
+    "id": "Mana huruf A?",
+    "en": "Which one is letter A?"
+  },
+  "tanya_huruf_b": {
+    "id": "Mana huruf B?",
+    "en": "Which one is letter B?"
+  },
+  "tanya_huruf_c": {
+    "id": "Mana huruf C?",
+    "en": "Which one is letter C?"
+  },
+  "tanya_huruf_d": {
+    "id": "Mana huruf D?",
+    "en": "Which one is letter D?"
+  },
+  "tanya_huruf_e": {
+    "id": "Mana huruf E?",
+    "en": "Which one is letter E?"
+  },
+  "tanya_huruf_f": {
+    "id": "Mana huruf F?",
+    "en": "Which one is letter F?"
+  },
+  "tanya_huruf_g": {
+    "id": "Mana huruf G?",
+    "en": "Which one is letter G?"
+  },
+  "tanya_angka_1": {
+    "id": "Mana angka satu?",
+    "en": "Which one is number one?"
+  },
+  "tanya_angka_2": {
+    "id": "Mana angka dua?",
+    "en": "Which one is number two?"
+  },
+  "tanya_angka_3": {
+    "id": "Mana angka tiga?",
+    "en": "Which one is number three?"
+  },
+  "tanya_angka_4": {
+    "id": "Mana angka empat?",
+    "en": "Which one is number four?"
+  },
+  "tanya_angka_5": {
+    "id": "Mana angka lima?",
+    "en": "Which one is number five?"
+  },
+  "tanya_angka_6": {
+    "id": "Mana angka enam?",
+    "en": "Which one is number six?"
+  },
+  "tanya_angka_7": {
+    "id": "Mana angka tujuh?",
+    "en": "Which one is number seven?"
+  },
+  "tanya_angka_8": {
+    "id": "Mana angka delapan?",
+    "en": "Which one is number eight?"
+  },
+  "hewan_kucing": {
+    "id": "Kucing",
+    "en": "Cat"
+  },
+  "hewan_anjing": {
+    "id": "Anjing",
+    "en": "Dog"
+  },
+  "hewan_sapi": {
+    "id": "Sapi",
+    "en": "Cow"
+  },
+  "hewan_ayam": {
+    "id": "Ayam",
+    "en": "Chicken"
+  },
+  "hewan_singa": {
+    "id": "Singa",
+    "en": "Lion"
+  },
+  "hewan_katak": {
+    "id": "Katak",
+    "en": "Frog"
+  },
+  "hewan_gajah": {
+    "id": "Gajah",
+    "en": "Elephant"
+  },
+  "hewan_bebek": {
+    "id": "Bebek",
+    "en": "Duck"
+  }
+}
